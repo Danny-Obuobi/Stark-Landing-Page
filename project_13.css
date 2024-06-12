@@ -192,6 +192,14 @@ ul {
 .fourth-mini-container-two {
     display: flex;
     gap: 20px;
+    height: 300px;
+
+    > * {
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 1.2rem;
+        background-position: bottom;
+    }
 }
 
 .fourth-text {
@@ -204,29 +212,21 @@ ul {
 .fourth-item-two,
 .fourth-item-three {
     width: 200px;
+    border-radius: 5px;
 }
+
 
 .fourth-item-one {
     background-image: url(./Images/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: 200px ;
-    padding: 1.2rem;
+    background-color: var(--first-color);
 }
 
 .fourth-item-two {
     background-image: url('./Images/library_collection_making_accessible_color_combos_42c8d90a99.png');
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 1.2rem;
-    background-color: var(--fifth-color);
+    background-color: var(--sixth-color);
 }
 
 .fourth-item-three {
     background-image: url('./Images/library_collection_Inclusive_Social_Media_b9669e6d39.png');
-    /* height: 300px; */
-    background-repeat: no-repeat;
-    background-size: 200px;
-    padding: 1.2rem;
+    background-color: var(--first-color);
 }
