@@ -44,6 +44,13 @@ nav > p {
     font-weight: bold;
 }
 
+.nav-item:hover {
+    cursor: pointer;
+    border: 1px solid var(--third-color);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
 .first-btn {
     font-size: 0.70rem;
     text-decoration: none;
