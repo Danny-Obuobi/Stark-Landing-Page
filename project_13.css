@@ -12,6 +12,7 @@
     --fourth-color:#4b4b4e;
     --fifth-color:#ffffff;
     --sixth-color:#f3f2fc;
+    --seventh-color:#ffff00;
 }
 
 body {
@@ -229,4 +230,63 @@ ul {
 .fourth-item-three {
     background-image: url('./Images/library_collection_Inclusive_Social_Media_b9669e6d39.png');
     background-color: var(--first-color);
+}
+
+.last-container {
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    padding: 3.5rem;
+}
+
+.last-container-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.last-container-one h2 {
+    width: 400px;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.last-image-one {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.last-container-two {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 150px;
+    font-size: 0.65rem;
+}
+
+.last-container-two p {
+    font-weight: 600;
+}
+
+.last-container-three {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mini-last-container-three {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.last-image-two {
+    width: 20px;
+    height: 20px;
+}
+
+.last-text {
+    font-size: 0.6rem;
+    color: var(--seventh-color);
+    font-weight: 600;
 }
