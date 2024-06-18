@@ -93,16 +93,16 @@ ul {
 .third-list-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+
 
 .arrow-image {
     cursor: pointer;
+    width: 20px;
 }
 
-
-.third-list-item img {
-    width: 10px;
-}
 
 .mini-container-one {
     background:var(--sixth-color) ;
