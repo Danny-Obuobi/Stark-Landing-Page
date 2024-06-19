@@ -94,14 +94,36 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
 }
 
+.second-list-item:hover,
+.third-list-item:hover{
+  color: var(--third-color);
+}
+
+.drop-down-list {
+    display: none;
+}
+
+.drop-down-visible {
+    display: block;
+    list-style-type: none;
+    cursor: pointer;
+    color: var(--fourth-color);
+}
+
+.third-list-item .drop-down-visible li:hover {
+    color: var(--third-color);
+}
 
 
 .arrow-image {
     cursor: pointer;
-    width: 20px;
+    width: 15px;
 }
+
 
 .arrow-image-open {
     transform: rotate(180deg);
