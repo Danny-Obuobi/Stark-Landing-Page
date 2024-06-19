@@ -103,6 +103,10 @@ ul {
     width: 20px;
 }
 
+.arrow-image-open {
+    transform: rotate(180deg);
+}
+
 
 .mini-container-one {
     background:var(--sixth-color) ;
