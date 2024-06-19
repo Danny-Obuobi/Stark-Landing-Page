@@ -25,12 +25,18 @@ img {
     width: 30px;
 }
 
-nav {
+.nav-bar {
     background: var(--first-color);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
+}
+
+.mini-nav-bar-one,
+.mini-nav-bar-two {
+    display: flex;
+    gap: 80px;
+    margin: 0;
 }
 
 .first-image {
@@ -38,16 +44,18 @@ nav {
     border-radius: 30px;
 }
 
-nav > p {
+.mini-nav-bar-one,
+.mini-nav-bar-two > li {
     font-size: 0.70rem;
     color: var(--third-color);
     font-weight: bold;
+    margin: 0;
 }
 
 .nav-item:hover {
     cursor: pointer;
-    border: 1px solid var(--third-color);
-    padding: 5px 15px;
+    border: 2px solid var(--third-color);
+    padding: 5px 25px;
     border-radius: 3px;
 }
 
