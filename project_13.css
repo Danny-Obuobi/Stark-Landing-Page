@@ -51,15 +51,15 @@ img {
 .mini-nav-bar-two > li {
     font-size: 0.70rem;
     color: var(--third-color);
-    font-weight: bold;
+    font-weight: 900;
     margin: 0;
 }
 
 .nav-item:hover {
     cursor: pointer;
-    border: 2px solid var(--third-color);
+    border: 3px solid var(--third-color);
     padding: 5px 25px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .first-btn {
@@ -73,6 +73,56 @@ img {
     letter-spacing: 1.2px;
     cursor:pointer ;
 }
+
+.nav-item-one {
+    display: flex;
+    gap: 5px;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+
+.mini-image {
+    width: 20px;
+    object-fit: contain;
+}
+
+.mini-page-one {
+    display: none;
+}
+
+.mini-page-one-open {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.page-item-one {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.page-item-two {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.page-item-three {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+}
+
+.page-item-four {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.page-item-five {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
 
 .main-container {
     padding: 1.5rem 3.5rem;
@@ -130,9 +180,14 @@ ul {
     color: var(--third-color);
 }
 
+.first-list-item,
+.second-list-item ,
+.third-list-item {
+    cursor: pointer;
+}
+
 
 .arrow-image {
-    cursor: pointer;
     width: 15px;
 }
 
